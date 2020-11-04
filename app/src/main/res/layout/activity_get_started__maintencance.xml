@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GetStarted_PredictionActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/bg_third"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keep track of your plant"
+        android:layout_marginHorizontal="100dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="-250dp"
+        android:layout_marginBottom="250dp"
+        android:textSize="15sp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="590dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-240dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="400dp"
+            android:layout_marginLeft="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ss_maint"
+            />
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:src="@drawable/arrow_right"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="-20dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/mnext"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/transparent_round"
+        android:text="Skip Intro>>"
+        android:layout_gravity="right"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="-70dp"
+        android:id="@+id/skip"
+        />
+
+</LinearLayout>
